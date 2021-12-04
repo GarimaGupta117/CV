@@ -1,0 +1,222 @@
+@import url('https://fonts.googleapis.com/css2?family=Amaranth&family=Montserrat&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.nav{
+    margin: 35px 55px 70px;
+    text-align: left;
+}
+
+.nav img{
+    position: relative;
+    width: 5%;
+}
+
+.btn{
+    position: absolute;
+    right: 55px;
+    padding: 7px 15px;
+    color: #7510F7;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    border: 2px solid #7510F7;
+    border-radius: 30px;
+}
+
+.btn:hover{
+    background-color: #7510F7;
+    color: white;
+}
+
+.front h1{
+    font-family: 'Amaranth', sans-serif;
+    font-size: 35px;
+    padding-top: 15px;
+}
+
+.front p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+.Profile{
+    width: 18%;
+}
+
+.Office{
+    margin-top: 70px;
+    width: 50%;
+    margin-bottom: -6px;
+}
+
+.intro{
+    padding: 140px;
+    background-color: #7510F7;
+    color: white;
+}
+
+h3{
+    font-family: 'Amaranth', sans-serif;
+    font-size: 30px;
+    margin: 0;
+}
+
+.intro p{
+    display: inline-block;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    width: 75%;
+    padding-bottom: 120px;
+    line-height: 1.5;
+}
+
+.tools-tech table{
+    position: relative;
+    background-color: white;
+    margin: auto;
+    margin-top: -130px;
+    border: 1px solid rgb(240, 240, 240);
+    border-radius: 10px;
+    box-shadow: 0px 5px 5px 0 rgb(240, 240, 240);
+}
+
+.programming{
+    border-right:1px solid rgb(240, 240, 240);
+    border-width: 2px;
+}
+
+.programming , .webDev{
+    position: relative;
+    padding: 50px 30px;
+    width: 40vw;
+}
+
+.fa-file-alt , .fa-code{
+    color: #7510F7;
+    font-size: 50px;
+}
+
+h6{
+    font-family: 'Amaranth', sans-serif;
+    font-size: x-large;
+    margin: 0;
+    padding-top: 30px;
+}
+
+.programming p , .webDev p{
+    margin: auto;
+    width: 80%;
+    padding-top: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+.dev , .pro{
+    color: #7510F7;
+}
+
+ul{
+    list-style: none;
+    margin: auto;
+}
+
+.project{
+    padding-top: 130px;
+    margin: auto;
+}
+
+.project p{
+    line-height: 1.5;
+    font-family:'Montserrat', sans-serif;
+}
+
+.project section{
+    margin: 10px;
+    margin-top: 70px;
+    display: inline-block;
+    height: 220px;
+    width: 340px;
+    border: 1px solid rgb(240, 240, 240);
+    border-radius: 10px;
+    background: linear-gradient(45deg , #7510F7 , pink , grey);
+    background-size: 300%;
+    color: white;
+    text-align: left;
+    padding-left: 15px;
+}
+
+.project section h3{
+    font-size: 40px;
+}
+
+.project section:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.progress{
+    margin-top: 100px;
+}
+
+.hackerrank{
+    padding: 7px 15px;
+    color: #7510F7;
+    font-size: 20px;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    border: 2px solid #7510F7;
+    border-radius: 30px;
+}
+
+.hackerrank:hover{
+    background-color: #7510F7;
+    color: white;
+}
+
+.footer{
+    clear: left;
+    margin-top: 120px;
+    padding-top: 90px;
+    background-color: #7510F7;
+    padding-bottom: 60px;
+}
+
+.footer img{
+    width: 6%;
+}
+
+.motto{
+    line-height: 1.5;
+    font-family: 'Amaranth', sans-serif;
+    font-size: 25px;
+    color :rgb(212, 211, 211);
+    padding-bottom: 10px;
+}
+
+.fa-linkedin-in, .fa-envelope , .fa-github-alt , .fa-instagram{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    border: 1.3px solid rgb(212, 211, 211);
+    border-radius: 60px;
+    padding: 12px;
+    margin: 5px 10px;
+}
+
+.fa-linkedin-in:hover , .fa-envelope:hover , .fa-github-alt:hover , .fa-instagram:hover{
+    color: #7510F7;
+    background-color: white;
+    border: 1.3px solid white;
+}
+
+.copyright{
+    padding-top: 30px;
+    font-family:'Montserrat', sans-serif;
+    color: rgb(212, 211, 211);
+    font-size: 13px;
+}
