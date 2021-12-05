@@ -6,6 +6,10 @@ body{
     text-align: center;
 }
 
+a{
+    text-decoration: none;
+}
+
 .nav{
     margin: 35px 55px 70px;
     text-align: left;
