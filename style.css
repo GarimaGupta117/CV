@@ -11,19 +11,20 @@ a{
 }
 
 .nav{
-    margin: 35px 55px 70px;
+    margin: 3% 10% 6%;
     text-align: left;
 }
 
 .nav img{
     position: relative;
-    width: 5%;
+    width: 7%;
+    left : -5%;
 }
 
 .btn{
     position: absolute;
-    right: 55px;
-    padding: 7px 15px;
+    right: 5%;
+    padding: 1% 2%;
     color: #7510F7;
     text-decoration: none;
     font-family: 'Montserrat', sans-serif;
@@ -38,14 +39,15 @@ a{
 
 .front h1{
     font-family: 'Amaranth', sans-serif;
-    font-size: 35px;
-    padding-top: 15px;
+    font-size: 250%;
+    padding-top: 2%;
 }
 
 .front p{
     font-family: 'Montserrat', sans-serif;
-    font-size: 18px;
+    font-size: 130%;
     line-height: 1.5;
+    font-weight: 800;
 }
 
 .Profile{
@@ -53,29 +55,29 @@ a{
 }
 
 .Office{
-    margin-top: 70px;
+    margin-top: 7%;
     width: 50%;
-    margin-bottom: -6px;
+    margin-bottom: -0.5%;
 }
 
 .intro{
-    padding: 140px;
+    padding: 11%;
     background-color: #7510F7;
     color: white;
 }
 
 h3{
     font-family: 'Amaranth', sans-serif;
-    font-size: 30px;
+    font-size: 180%;
     margin: 0;
 }
 
 .intro p{
     display: inline-block;
     font-family: 'Montserrat', sans-serif;
-    font-size: 15px;
+    font-size: 105%;
     width: 75%;
-    padding-bottom: 120px;
+    padding-bottom: 12%;
     line-height: 1.5;
 }
 
@@ -83,7 +85,7 @@ h3{
     position: relative;
     background-color: white;
     margin: auto;
-    margin-top: -130px;
+    margin-top: -13%;
     border: 1px solid rgb(240, 240, 240);
     border-radius: 10px;
     box-shadow: 0px 5px 5px 0 rgb(240, 240, 240);
@@ -96,28 +98,34 @@ h3{
 
 .programming , .webDev{
     position: relative;
-    padding: 50px 30px;
+    padding: 3% 30px;
     width: 40vw;
 }
 
-.fa-file-alt , .fa-code{
+.fa-file-alt{
     color: #7510F7;
-    font-size: 50px;
+    font-size: 320%;
+}
+
+.fa-code{
+    margin-top: 4%;
+    color: #7510F7;
+    font-size: 320%;
 }
 
 h6{
     font-family: 'Amaranth', sans-serif;
-    font-size: x-large;
+    font-size: 180%;
     margin: 0;
-    padding-top: 30px;
+    padding-top: 5%;
 }
 
 .programming p , .webDev p{
     margin: auto;
     width: 80%;
-    padding-top: 20px;
+    padding-top: 3%;
     font-family: 'Montserrat', sans-serif;
-    font-size: 15px;
+    font-size: 90%;
     line-height: 1.5;
 }
 
@@ -138,25 +146,26 @@ ul{
 .project p{
     line-height: 1.5;
     font-family:'Montserrat', sans-serif;
+    font-weight: 600;
 }
 
 .project section{
-    margin: 10px;
-    margin-top: 70px;
+    margin: 1%;
+    margin-top: 7%;
     display: inline-block;
     height: 220px;
-    width: 340px;
+    width: 27%;
     border: 1px solid rgb(240, 240, 240);
     border-radius: 10px;
     background: linear-gradient(45deg , #7510F7 , pink , grey);
     background-size: 300%;
     color: white;
     text-align: left;
-    padding-left: 15px;
+    padding-left: 1.5%;
 }
 
 .project section h3{
-    font-size: 40px;
+    font-size: 250%;
 }
 
 .project section:hover{
@@ -165,13 +174,13 @@ ul{
 }
 
 .progress{
-    margin-top: 100px;
+    margin-top: 8%;
 }
 
 .hackerrank{
-    padding: 7px 15px;
+    padding: 0.5% 1%;
     color: #7510F7;
-    font-size: 20px;
+    font-size: 125%;
     text-decoration: none;
     font-family: 'Montserrat', sans-serif;
     border: 2px solid #7510F7;
@@ -185,10 +194,10 @@ ul{
 
 .footer{
     clear: left;
-    margin-top: 120px;
-    padding-top: 90px;
+    margin-top: 10%;
+    padding-top: 8%;
     background-color: #7510F7;
-    padding-bottom: 60px;
+    padding-bottom: 5%;
 }
 
 .footer img{
@@ -198,18 +207,18 @@ ul{
 .motto{
     line-height: 1.5;
     font-family: 'Amaranth', sans-serif;
-    font-size: 25px;
+    font-size: 160%;
     color :rgb(212, 211, 211);
-    padding-bottom: 10px;
+    padding-bottom: 0.75%;
 }
 
 .fa-linkedin-in, .fa-envelope , .fa-github-alt , .fa-instagram{
-    font-size: 20px;
+    font-size: 140%;
     color: rgb(255, 255, 255);
     border: 1.3px solid rgb(212, 211, 211);
     border-radius: 60px;
-    padding: 12px;
-    margin: 5px 10px;
+    padding: 1.2%;
+    margin: 0.45% 0.85%;
 }
 
 .fa-linkedin-in:hover , .fa-envelope:hover , .fa-github-alt:hover , .fa-instagram:hover{
@@ -219,8 +228,8 @@ ul{
 }
 
 .copyright{
-    padding-top: 30px;
+    padding-top: 2.5%;
     font-family:'Montserrat', sans-serif;
     color: rgb(212, 211, 211);
-    font-size: 13px;
+    font-size: 90%;
 }
